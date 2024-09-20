@@ -29,7 +29,7 @@ final 4 =
 
 
 `Select all buttons with class "ending-btn"
-const endingButtons = document.querySelectorAll('.ending-btn');
+const endingButtons = document.querySelectorAll('.passo');
 
 Add event listeners to all ending buttons
 
