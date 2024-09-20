@@ -1,16 +1,56 @@
+
+
 body {
-    background-color: blue;
-    color: white;
-    font-family: "Bai Jamjuree", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 700px;
+    background-color: black;
+    color: blue;
+    font-family: "EB Garamond", sans-serif;
     margin: 0px;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 288);
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(42, 122, 228);
+    font-family: "EB Garamond", sans-serif;
+}
+
+main {
+    background-color: darkblue;
+    color: white;
+    font-family: "EB Garamond", sans-serif;
+    padding: 10px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    justify-content: center;
+    margin: 8px;
+    flex-direction: column;
+
+}
+
+h1 {
+    background: black;
+    display: inline-block;
+    color: indigo;
+    margin: 0px;
+    padding: 5px;
+
 }
 
 button {
     background-color: black;
     color: white;
-    font-family: "Bai Jamjuree", sans-serif;
+    font-family: "EB Garamond", sans-serif;
+}
+
+.passo {
+    display: none;
+
+}
+
+.passo.ativo {
+    display: block;
 }

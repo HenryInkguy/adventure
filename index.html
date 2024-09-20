@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <title>Agência de Controle de Monstros</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em busca da cidade perdida</title>
 </head>
 <body>
+    <header>Agência de Controle de Monstros</header>
     <main>
+        <h1><i>Sua história começa aqui...</i></h1>
         <div class="passo ativo" id="passo-0">
-            <p>No mundo em que vivemos existe uma Agência Combatente de Monstros que protege o mundo que vivemos
+            <p><i>No mundo em que vivemos existe uma Agência de Controle de Monstros que protege o mundo que vivemos
                Mas nem tudo é o que parece. Segundo meus estudos, ao invés de eliminarem os monstros, eles os prendem e os estudam.
                Para tentativa de criar novas raças, e chegar num objetivo final de uma raça suprema. Mas se depender de mim, não acontecerá.
                 
@@ -20,20 +22,80 @@
                Mas um dia, ele foi traído, provavelmente está presa e a localização dele é desconhecida.
                Agora minha missão é impedir isso de acontecer, para a libertação e a convivência dos monstros com a humanidade, pois eles não são maus e apenas atacam por auto-defesa.
                No fundo, sei que eles são de bom coração e só tem medo da corrupção do mundo, do orgulho dos homens e do ego.
-            
+
+               No momento eu ainda estou em dúvida sobre onde continuar minhas pesquisas, preciso saber mais sobre tudo isso...</i>
             </p>
-            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
-            <button class="btn-proximo" data-proximo="2">Pernambuco</button>
-        </div>
-        <div class="passo" id="passo-1">
-            <p>Você começa sua jornada no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer para encontrar a primeira pista.</p>
-            <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
-            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+            <button class="btn-proximo" data-proximo="1" data-end="ACM - Final 1">Visitar uma fábrica abandonada da ACM.</button>
+            <button class="btn-proximo" data-proximo="2" >Buscar ajuda com uma amiga próxima que trabalha na ACM.</button>
+           
+            <div class="passo" id="passo-1">
+                <p>Final 1: Você vai até o apartamento dela após o turno noturno, ela está com sono mas imediatamente arregala os olhos quando você começa a contar suas pesquisas, ela o convida para entrar e você acaba por dormir no sofá depois de explicar todo o seu plano. Porém logo pela madrugada, poucas horas depois de ter dormido, você acaba acordando com um barulho alto, você vasculha o apartamento mas ele está vazio, indo para o térreo do apartamento você percebe algo estranho, brevemente após sair do elevador, você vê sua amiga parada ao lado de alguns agentes, ela aponta para você de forma vazia e então dois dos agentes vão para você e o algemam, não havia ninguém para lhe ouvir, eles não pareciam muito amigáveis. O inevitável aconteceu, você se tornou mais um silenciado pela agência, levado como prisioneiro.</p>
+
+            </div>
+            <div class="passo" id="passo-2">
+                <p>Você sai de madrugada, chegando no local, você invade a instalação, ela parece bem abandonada e caindo aos pedaços, então é fácil de invadir, essa fábrica foi desativada a muito tempo, e mesmo assim parecia ter dispositivos de alta tecnologia deixados para trás, talvez a ACM não se importasse tanto com desperdício, só te surpreende ninguém ter roubado ainda.</p>
+                <button class="btn-proximo" data-proximo="3">Investigar os andares subterrâneos.</button>
+                <button class="btn-proximo" data-proximo="4">Investigar os laboratórios.</button>
+
+                <div class="passo" id="passo-3">
+                    <p>Você ouve alguns barulhos estranhos após descer para o subterrâneo da fábrica abandonada. Como se fosse algo ou alguém se mexendo. Talvez um monstro ou alguma pessoa.</p>
+                    <button class="btn-proximo" data-proximo="5" data-end="ACM - Final 2A">Ignorar o barulho, ligar sua lanterna e investigar  as grandes salas do subterrâneo. (Descuidado)</button>
+                    <button class="btn-proximo" data-proximo="4">Voltar para o começo e investigar os laboratórios.</button>
+
+                    <div class="passo" id="passo-5">
+                        <p>Final 2A: Você fica investigando por um tempo, mas de repente ouve um barulho brusco atrás de você, e antes mesmo de conseguir virar, você é apunhalado fatalmente por alguma coisa, a qual você nem teve chance de ver...</p>
+
+                    </div>
+                </div>
+                
+                <div class="passo" id="passo-4">
+                    <p>Nos laboratórios você acha alguns registros deixados para trás, ainda bem legíveis, contando sobre os experimentos que eles faziam nos monstros de formas bem detalhadas. Entre outras coisas.</p>
+                    <button class="btn-proximo" data-proximo="6" data-end="ACM - Final 2B">Continuar procurando.</button>
+                    <button class="btn-proximo" data-proximo="7">Pegar os documentos e voltar para pesquisar mais em casa.</button>
+
+                    <div class="passo" id="passo-6">
+                        <p>Final 2B: Você continua procurando por mais um tempo, mas de repente ouve um barulho brusco atrás de você, e antes mesmo de conseguir virar, você é apunhalado fatalmente por alguma coisa, a qual você nem teve chance de ver...</p>
+
+                    </div>
+
+                    <div class="passo" id="passo-7">
+                        <p>Você continua suas pesquisas por alguns dias, você consegue identificar que há duas pessoas muito mencionadas nos relatórios. Sr. P e Sr. X, você pensa que o Sr. P possivelmente possa ser seu pai, sendo esse um apelido que você lembra dos colegas de trabalho dele o chamando. Os cientistas foram descuidados o suficiente para colocar uma localização para o qual o tal Sr. P foi supostamente transferido, em coordenadas. Então você segue até o local, porém, embora bem cuidado, parece vazio, era madrugada e o lugar está escuro, então você acha uma brecha para invadir pela tubulação, perigoso mas sua pesquisa era mais importante. Já dentro do local, ele não parecia tão vazio assim, fora da sua sala estava tudo escuro exceto por alguns lugares, onde parecia ter gente ainda trabalhando e também guardas.</p>
+                        <button class="btn-proximo" data-proximo="8" data-end="ACM - Final 3A">Tentar evitar os guardas mas ainda investigar o local.</button>
+                        <button class="btn-proximo" data-proximo="9">Ir para o local mais afastado, onde há uma escada para o subterrâneo.</button>
+
+                        <div class="passo" id="passo-8">
+                            <p>Final 3A: Infelizmente você não é um ninja, então andar pela instalação, mesmo com iluminação pobre, foi muito complicado, você acabou fazendo barulho demais e... foi capturado, como imaginou que ia acontecer, seus gritos não tem significado em um lugar cercado de inimigos.</p>
+
+                        </div>
+                        
+                        <div class="passo" id="passo-9">
+                            <p>Você consegue ir para o subterrâneo e investiga o máximo que consegue por lá, o lugar parece vazio, mas conforme você progride, você se vê chegando ao fim do corredor, entrando em uma grande sala, felizmente a porta era de boa qualidade e não fez barulho, pois você conseguia ver alguns guardas. Você fica surpreso com o que vê, muitas celas de prisão, de diversos tamanhos, com muitos monstros, porém uma cela de tamanho normal no fim da sala, você precisava chegar lá, você tinha que ter certeza se poderia realmente ser ele.</p>
+                            <button class="btn-proximo" data-proximo="10" data-end="ACM - Final 3B">Seguir o corredor central, onde estão a maior parte das celas, tentando alcançar a cela sem alarmar os guardas.</button>
+                            <button class="btn-proximo" data-proximo="11" data-end="ACM - Final 4">Ir pelos cantos das salas, no escuro, até o painel de controle e procurar uma forma de abrir as celas.</button>
+
+                            <div class="passo" id="passo-10">
+                                <p>Final 3B: Você acaba fazendo barulho, seguir o caminho central talvez não fosse uma boa ideia, era muito complicado evitar os guardas dessa forma, infelizmente você acaba sendo pego e capturado, pelo menos já estava perto das celas que eles te prenderiam.</p>
+
+                            </div>
+
+                            <div class="passo" id="passo-11">
+                                <p>Final 4: Você consegue abrir as celas ao clicar em um botão em uma mesa de controle, porém você não consegue escolher qual, você apenas ouve todas as celas abrindo, os monstros escampam e você consegue ouvir barulhos de tiros e gritos dos guardas, era ensurdecedor, mas você faz seu caminho para o meio da sala, indo em direção ao fim, você percebe que os monstros passam direto por você, lhe ignorando, você olha em volta e percebe que são vários deles, indo para lugares diferentes da instalação. No fim... na última cela, você encontra finalmente o que queria, numa plaqueta no topo da cela escrito: Sr. P. No fim, era realmente ele, seu pai, você se aproxima e lhe dá um abraço apertado, ele parecia mais velho, e retribui.
+
+                                    Fim dessa História.</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
         </div>
     </main>
-        
-        
-        
-        
+    
+    <script src="script.js"></script>
+         
 </body>
 </html>
