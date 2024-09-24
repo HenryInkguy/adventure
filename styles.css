@@ -28,12 +28,14 @@ main {
     justify-content: center;
     margin: 8px;
     flex-direction: column;
+    text-align: center;
+    max-width: 90%;
 
 }
 
 h1 {
     background: black;
-    display: inline;
+    display: inline-flex;
     color: indigo;
     margin: 0px;
 
@@ -47,6 +49,12 @@ button {
     align-items: center;
     justify-content: center;
 
+}
+
+img {
+    padding-top: 30px;
+    max-width: 90%;
+    max-height: 20%;
 }
 
 .passo {
