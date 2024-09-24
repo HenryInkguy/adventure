@@ -21,15 +21,20 @@ avanca.forEach(button => {
 function changetitleBasedOnEnding(ending) {
     if (ending === "final1") {
         document.title = "ACM - Final 1"
-    } else if (ending === "final2a") {
+    } 
+    else if (ending === "final2a") {
         document.title = "ACM - Final 2A"
-    } else if (ending === "final2b") {
+    } 
+    else if (ending === "final2b") {
         document.title = "ACM - Final 2B"
-    } else if (ending === "final3a") {
+    } 
+    else if (ending === "final3a") {
         document.title = "ACM - Final 3A"
-    } else if (ending === "final3b") {
+    } 
+    else if (ending === "final3b") {
         document.title = "ACM - Final 3B"
-    } else if (ending === "final4") {
+    } 
+    else if (ending === "final4") {
         document.title = "ACM - Final 4"
     }
     
