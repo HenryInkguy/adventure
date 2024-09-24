@@ -15,35 +15,6 @@ Utilizar + que 2 imagens.
 # Agora minha missão é impedir isso de acontecer, para a libertação e a convivência dos monstros com a humanidade, pois eles não são maus e apenas atacam por auto-defesa.
 # No fundo, sei que eles são de bom coração e só tem medo da corrupção do mundo, do orgulho dos homens e do ego.
 
-Nós que escolhemos seus caminhos seriamos uma espécie de inteligência artificial no qual o protagonista usaria para saber como seguir ou o que fazer.
+# O personagem é referido em primeira pessoa, como se fossemos realmente nós tomando suas escolhas.
 
-final 1 = btn-proximo e data-end
-final 2a = 
-final 2b = 
-final 3a =
-final 3b = 
-final 4 =
-
-
-
-
-
-`Select all buttons with class "ending-btn"
-const endingButtons = document.querySelectorAll('.passo');
-
-Add event listeners to all ending buttons
-
-endingButtons.forEach(button => {
-    button.addEventListener('click', (event) => {
-        const ending = event.target.getAttribute('data-ending');
-        changeTitleBasedOnEnding(ending); // Call the function based on the clicked button
-    });
-});` 
-
-
-
-`function changeTitleBasedOnEnding(ending) {
-    if (ending === "final1") {
-        document.title = "Final 1"
-    }
-}`
+# Ignore as coisas em comentário, foram ideias que não dariam tempo de implementar.
