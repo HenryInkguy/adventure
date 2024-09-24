@@ -43,6 +43,10 @@ button {
     background-color: black;
     color: white;
     font-family: "EB Garamond", sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .passo {
@@ -52,4 +56,5 @@ button {
 
 .passo.ativo {
     display: block;
+    font-size: 30px
 }
