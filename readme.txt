@@ -1,3 +1,5 @@
+# Feito por Henrique Carmona e André Rocha do 2ºB
+
 Criar uma história para uma aventura.
 
 Fazer fluxograma.
