@@ -17,6 +17,6 @@ Utilizar + que 2 imagens.
 # Agora minha missão é impedir isso de acontecer, para a libertação e a convivência dos monstros com a humanidade, pois eles não são maus e apenas atacam por auto-defesa.
 # No fundo, sei que eles são de bom coração e só tem medo da corrupção do mundo, do orgulho dos homens e do ego.
 
-# O personagem é referido em primeira pessoa, como se fossemos realmente nós tomando suas escolhas.
+# O personagem é referido em primeira pessoa, como se fossemos realmente nós tomando suas decisões.
 
 # Ignore as coisas em comentário, foram ideias que não dariam tempo de implementar.
